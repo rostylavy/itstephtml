@@ -12,134 +12,94 @@
 }
 
 body {
-    background: #F9F9F9;
-    width: 1920px;
+    width: 100%;
 }
 
-main {
+.menu-button {
+    width: 162px;
+    height: 80px;
+    color: white;
     display: flex;
-    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.12px;
+    text-align: left;
 }
 
-header {
-    margin-top: 80px;
+.menu-button.selected {
+    background: #1F1F1F;
+}
+
+.menu-bar {
     display: flex;
     flex-flow: row nowrap;
-    gap: 42px;
-    justify-content: start;
-    margin-left: 400px;
+    justify-content: space-between;
+    align-items: center;
+    background: #0F0F0F;
+    padding-left: 405px;
+    padding-right: 405px;
 }
 
-.header-item {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
+.buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-h1 {
-    font-weight: 500;
-    font-size: 48px;
-}
-
-h2 {
-    font-weight: 500;
-    font-size: 32px;
-}
-
-h3 {
-    font-weight: 500;
-    font-size: 21px;
-}
-
-h4 {
+.top-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    background: #000000;
+    color: #969696;
+    font-family: PT Sans;
+    font-size: 12px;
     font-weight: 400;
-    font-size: 16px;
+    line-height: 15.53px;
+    text-align: left;
+}
+
+.basic-info {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+
+.login {
+    display: flex;
+    flex-flow: row unwrap;
+}
+
+.shop-icon img,
+.search-icon img {
+    width: 22px;
+    height: 22px;
+    margin: 10px;
 }
 
 .first-section {
-    margin-top: 162px;
-    margin-left: 400px;
-    width: 740px;
+    background: url("../images/Rectangle3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 810px;
     display: flex;
     flex-flow: column nowrap;
-    align-items: start;
-    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
 
-.contact-me-button {
-    width: 225px;
-    height: 65px;
-    background: #34547A;
+.first-section h3 {
+    width: 730px;
     color: white;
-    text-transform: uppercase;
-    font-weight: 400;
+    font-family: PT Sans;
     font-size: 16px;
-}
-
-.about-me-section {
-    margin-top: 250px;
-    align-self: center;
-    width: 540px;
-    text-align: center;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 50px;
-}
-
-.numbers-section {
-    margin-top: 100px;
-    background: #34547A;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    gap: 45px;
-    padding: 100px 0;
-}
-
-.number-element {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 20px;
-    color: white;
-}
-
-.video-section {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    width: 100%;
-}
-
-.video-text {
-    text-align: center;
-    width: 540px;
-}
-
-.video {
-    background-color: red;
-    width: 1100px;
-    height: 600px;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-footer {
-    margin-top: 100px;
-    background: #34547A;
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: start;
-    padding-left: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: white;
-}
-
-.copyright {
-    font-size: 13px;
     font-weight: 400;
+    line-height: 24px;
+    text-align: center;
 }
