@@ -18,7 +18,7 @@
 
 .section-header {
     padding: 22px 0;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo img {
@@ -30,4 +30,36 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+}
+
+.menu a {
+    color: rgba(31, 46, 53, 0.8);
+    font-size: 18px;
+}
+
+.drop-menu {
+    padding-right: 21px;
+    position: relative;
+}
+
+.drop-menu::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 9px;
+    background: url("../images/chevron_down.svg");
+    right: 0px;
+    top: 7px;
+    transition: 0.2s;
+}
+
+.drop-menu:hover.drop-menu::before {
+    transform: rotate(180deg);
 }
