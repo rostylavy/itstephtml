@@ -18,8 +18,7 @@ body {
 .menu-button {
     width: 162px;
     height: 80px;
-    color: white;
-    display: flex;
+    color: white display: flex;
     align-items: center;
     justify-content: center;
     font-family: PT Sans;
