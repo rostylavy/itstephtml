@@ -103,3 +103,65 @@ body {
     line-height: 24px;
     text-align: center;
 }
+
+.half-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.half-container div {
+    flex-basis: 50%;
+}
+
+.product-view {
+    background: #000000;
+    color: #FFFFFF;
+    height: 730px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.product-view h2 {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.99px;
+    text-align: center;
+}
+
+.product-view hr {
+    border: 1px solid #FFFFFF;
+    width: 120px;
+}
+
+.product {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    gap: 5px;
+}
+
+.product-img {
+    background: #191B1C;
+    padding: 25px 20px 25px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-row {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+
+.product-description {
+    margin-left: 5px;
+}
+
+.season {
+    padding-top: 90px;
+}
