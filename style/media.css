@@ -1,48 +1,26 @@
-@media screen and (max-width: 1600px) {
-    .half-container {
+@media screen and (max-width: 1255px) {
+    .puppy-donation-image {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .first-section-main {
         flex-wrap: wrap;
     }
 
-    .half-container div {
-        flex-basis: 100%;
-    }
-
-    .new-collection {
-        min-height: 730px;
+    .first-section-main {
+        gap: 20px;
     }
 }
 
-@media screen and (max-width: 1120px) {
-    .logo {
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-}
 
-@media screen and (max-width: 960px) {
-    .collection-2018 img {
-        display: none;
-    }
-
-    .collection-2018-text {
-        background: url("../images/Rectangle\ 9.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 708px) {
-    .menu-bar {
-        padding-right: 0px;
-    }
-
-    .buttons {
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .menu-button {
-        max-width: 162px;
+@media screen and (max-width: 656px) {
+    .small-animal-img {
+        order: 1;
     }
 }
