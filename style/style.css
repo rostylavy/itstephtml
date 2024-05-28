@@ -124,10 +124,12 @@ a {
 .puppy-img {
     display: flex;
     justify-content: end;
+    width: 100%;
+    overflow: hidden;
 }
 
 .puppy-img img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .second-section {
@@ -223,10 +225,15 @@ a {
 
 .animals-menu {
     display: flex;
-    flex-flow: row wrap;
-    width: 100%;
+    flex-flow: row nowrap;
+    width: fit-content;
     justify-content: space-around;
     gap: 10px;
+}
+
+.animals-scroll {
+    overflow-x: auto;
+    width: 100%;
 }
 
 .fourth-section {
@@ -255,6 +262,7 @@ a {
 .help-item {
     flex-basis: 20%;
     display: flex;
+    text-wrap: nowrap;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
@@ -286,6 +294,7 @@ a {
     flex-flow: row wrap;
     padding: 80px 182px 100px;
     gap: 30px;
+    max-width: 100vw;
 }
 
 .fifth-section>div {
@@ -296,6 +305,11 @@ a {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+}
+
+
+.puppy-donation-image img {
+    max-width: 100vw;
 }
 
 .bank-info {

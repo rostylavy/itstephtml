@@ -24,3 +24,43 @@
         order: 1;
     }
 }
+
+
+@media screen and (max-width: 541px) {
+    .menu-bar {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .help-item {
+        flex-basis: 40%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .help-item {
+        flex-basis: 100%;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    .buttons {
+        flex-wrap: wrap;
+    }
+
+    .fifth-section {
+        padding: 80px 0px 100px;
+    }
+
+    .card-number {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16.5px;
+        letter-spacing: 0.06em;
+        text-align: left;
+    }
+}
